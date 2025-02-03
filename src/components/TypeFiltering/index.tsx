@@ -22,7 +22,7 @@ function index() {
             horizontal={true}
         >
             {
-                ["Birlikte İyi Gider", "Çubuk", "Külah", "Çoklu", "Bar"].map((item, index) => (
+                ["Birlikte İyi Gider", "Çubuk", "Dondurma", "Külah", "Çoklu", "Bar"].map((item, index) => (
                     <TypeBox key={index} setCat={setCategory} item={item} active={category} />
                 ))
             }

@@ -20,13 +20,10 @@ Ana sayfa, ürün listesi ve kategori sayfalarından bazı ekran görüntüleri:
 - Dinamik fiyat gösterimi
 - Responsive tasarım
 
-## Teknolojiler:**
+## **Teknolojiler:**
 
 - **React Native** - Mobil uygulama geliştirme
 - **Expo** - React Native geliştirme ortamı  
-    
-  Expo ile çalıştırın:
-    npx expo start
     
 ## **Kurulum**  
 

@@ -38,13 +38,16 @@ function HomeNavigator() {
         options={{
           headerBackTitle:"",
           headerStyle: {backgroundColor:"#5C3EBC"},
+          headerTintColor:"white",
           headerTitle:() => (
             <Text style={{fontWeight:'bold',color:'white',fontSize:15,}}>Ürün Detayı</Text>
           )
         }}
         name = "ProductDetails"
         component={ProductDetailsScreen}
+      
         />
+       
         
 
 

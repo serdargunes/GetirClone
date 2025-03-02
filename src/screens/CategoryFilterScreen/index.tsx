@@ -14,4 +14,4 @@ function index(props){
         </ScrollView>
     )
 }
-export default index
+export default index;

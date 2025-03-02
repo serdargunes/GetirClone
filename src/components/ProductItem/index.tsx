@@ -32,6 +32,7 @@ function index({item}:productItemType) {
                 fontWeight:'bold',
                 fontSize:14,
                 marginLeft:5,
+
             }}>
                 
                 <Text>{"\u20BA"}</Text>{item.fiyatIndirimli}

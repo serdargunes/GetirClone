@@ -40,7 +40,7 @@ function HomeNavigator() {
           headerStyle: {backgroundColor:"#5C3EBC"},
           headerTintColor:"white",
           headerTitle:() => (
-            <Text style={{fontWeight:'bold',color:'white',fontSize:15,}}>Ürün Detayı</Text>
+            <Text style={{fontWeight:'bold',color:'white',fontSize:15,}}>Ürünn Detayı</Text>
           )
         }}
         name = "ProductDetails"

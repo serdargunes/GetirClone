@@ -1,12 +1,19 @@
-import React from 'react'
-import {View,Text} from 'react-native'
+import React,{useEffect,useState} from 'react'
+import {View,Text, ActivityIndicator} from 'react-native'
+import { Product } from '../../models';
+import ImageCarousel from "../../components/ImageCarousel/index"
 
-function index() {
+function index(props) {
+  const [product, setProduct] = useState<Product>()
+  useEffect(() => {
+    setProduct(props.route.params.product)
+  },[])
+  if(!product){
+    return <ActivityIndicator color={"#5D3EBD"}/>
+  }
   return (
     <View>
-        <Text>
-            Serdar
-        </Text>
+        <ImageCarousel images={product?.images} />
     </View>
   )
 }

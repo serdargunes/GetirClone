@@ -49,7 +49,7 @@ function HomeNavigator() {
           headerRight: () => {
             return(
               <TouchableOpacity style = {{paddingRight:12,}}>
-                <Text><FontAwesome name="heart" size={24} color="black" /></Text>
+                <Text><FontAwesome name="heart" size={24} color="#32177a" /></Text>
               </TouchableOpacity>
             )
           },
@@ -62,7 +62,7 @@ function HomeNavigator() {
             );
           
           },
-        }}
+          tabBarStyle: { display: "none" }        }}
         name="ProductDetails"
         component={ProductDetailsScreen}
         />
